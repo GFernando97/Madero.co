@@ -2681,27 +2681,35 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
+			.tiles article.Gafas-Madera > .image:before {
 				background-color: #f2849e;
 			}
 
-			.tiles article.style2 > .image:before {
+			.tiles article.RelojPulsera-Madera > .image:before {
 				background-color: #7ecaf6;
 			}
 
-			.tiles article.style3 > .image:before {
+			.tiles article.FundasMovil-Madera > .image:before {
 				background-color: #7bd0c1;
 			}
 
-			.tiles article.style4 > .image:before {
+			.tiles article.Anillos-Madera > .image:before {
 				background-color: #c75b9b;
 			}
 
-			.tiles article.style5 > .image:before {
+			.tiles article.Oficina-Madera > .image:before {
 				background-color: #ae85ca;
 			}
 
-			.tiles article.style6 > .image:before {
+			.tiles article.Juguetes-Madera > .image:before {
+				background-color: #8499e7;
+			}
+
+			.tiles article.Complementos-Madera > .image:before {
+				background-color: #8499e7;
+			}
+
+			.tiles article.Collares-Madera > .image:before {
 				background-color: #8499e7;
 			}
 
@@ -2886,6 +2894,7 @@ input, select, textarea {
 						white-space: nowrap;
 					}
 
+
 						#header nav ul li a[href="#menu"]:before, #header nav ul li a[href="#menu"]:after {
 							-moz-transition: opacity 0.2s ease;
 							-webkit-transition: opacity 0.2s ease;
@@ -3009,6 +3018,26 @@ input, select, textarea {
 					#menu > .inner > ul > li:first-child {
 						border-top: 0;
 						margin-top: -1em;
+					}
+			
+					#menu .inner ul  li:hover  ul{
+						display: block;
+						height:100%;
+					}
+
+					#menu .inner ul li ul{
+						display:none;
+						position: relative;
+						background: #585858;
+						left:0;
+						right:0;
+						overflow : hidden;
+						height: 0%;
+						-webkit-transition: all 2s ease;
+						-moz-transition: all 2s ease;
+						-ms-transition: all 2s ease;
+						-o-transition: all 2s ease;
+						transition: all 2s ease;
 					}
 
 		#menu > .close {

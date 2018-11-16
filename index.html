@@ -3,10 +3,18 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Madera.co</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" href="style/index-style.css">
         <noscript><link rel="stylesheet" href="style/noscript.css"/></noscript>
+        <!-- Zona SEO -->
+        <title>Tienda Online de Productos de Madera</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="description" content="Catálogo de artículos de madera tales como gafas, collares, adornos, relojes, anillos, piercings... etc."/>
+        <link rel="canonical" href="index.html"/>
+        <meta property="og:locale" content="es_ES">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Tienda Online de Productos de Madera">
+        <meta property="og:description" content="Catálogo de artículos de madera tales como gafas, collares, adornos, relojes, anillos, piercings... etc.">
+        
     </head>
     <body>
         <!-- Wrapper-->
@@ -27,11 +35,10 @@
                     <!-- Nav -->
                     <nav>
                         <ul>
-                            <li>
-                                <a href="#menu">Menu</a>
-                            </li>
+                            <li><a href="#menu">Menu</a></li>
                         </ul>
                     </nav>
+
                 </div>
             </header>
 
@@ -40,7 +47,18 @@
                     <h2>Menu</h2>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="generic.html">Ipsum veroeros</a></li>
+                        <li><a href="#">Articulos</a>
+                            <ul>
+                                <li><a href="html-files/AnillosMadera.html">Anillos</a></li>
+                                <li><a href="html-files/CollarMadera.html">Collares</a></li>
+                                <li><a href="html-files/ComplementosMadera.html">Complementos</a></li>
+                                <li><a href="html-files/FundasMadera.html">Fundas y Carcasas</a></li>
+                                <li><a href="html-files/GafasMadera.html">Gafas</a></li>
+                                <li><a href="html-files/JuguetesMadera.html">Juguetes</a></li>
+                                <li><a href="html-files/OficinaMadera.html">Oficina</a></li>
+                                <li><a href="html-files/RelojesMadera.html">Relojes</a></li>
+                            </ul>
+                        </li>
                         <li><a href="generic.html">Tempus etiam</a></li>
                         <li><a href="generic.html">Consequat dolor</a></li>
                         <li><a href="elements.html">Elements</a></li>
@@ -48,18 +66,27 @@
                 </nav>
 
             <!-- Main -->
-            <!--Leron-->
             <div id= "main"> <!-- Wood-Main-->
                 <div class="inner">    <!-- Wood-inner-->
                     <header>
                         <h1>Primera versión de la página Madera.co<br/>
                             Diseñado por <a href="https://github.com/Reko98">Reko98</a>.</h1>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                            Consectetur inventore corrupti necessitatibus quod aliquid?
+
                         </p>
                     </header>
                     <section class="tiles">    <!-- Wood-tiles-->
+                        <article class="Collares-Madera">
+                            <span class="image">
+                                <img src="img/CollarMadera.jpg" alt>
+                            </span>
+                            <a href="html-files/CollarMadera.html">
+                                <h2>Collares de Madera</h2>
+                                <div class="content">
+                                    <p>Collares y Colgantes de Madera</p>
+                                </div>
+                            </a>
+                            </article>
                         <article class="Gafas-Madera">
                             <span class="image">
                                 <img src="img/GafasMadera.jpg" alt>
@@ -136,16 +163,6 @@
                                 <p>Complementos de Madera para jardín, cocina, dormitorios...</p>
                             </div>
                         </article>
-                        <article class="Collares-Madera">
-                            <span class="image">
-                                <img src="img/collaresMadera.jpg" alt>
-                            </span>
-                            <a href="html-files/CollarMadera.html">
-                            <h2>Collares de Madera</h2>
-                            <div class="content">
-                                <p>Collares y Colgantes de Madera</p>
-                            </div>
-                        </article>
                     </section>
                 </div>
             </div>
@@ -211,11 +228,11 @@
         </div>
 
         <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/browser.min.js"></script>
+        <script src="js/breakpoints.min.js"></script>
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
 
     </body>
 </html>
