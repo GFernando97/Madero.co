@@ -2537,6 +2537,47 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+/* Articles */
+		.articles{
+			display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		position: relative;
+		margin: -2.5em 0 0 -2.5em;
+		}
+
+		.articles article {
+			-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
+			-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
+			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
+			transition: transform 0.5s ease, opacity 0.5s ease;
+			position: relative;
+			width: calc(20% - 2.5em);
+			margin: 2.5em 0 0 2.5em;
+		}
+
+			.articles article > .image {
+				-moz-transition: -moz-transform 0.5s ease;
+				-webkit-transition: -webkit-transform 0.5s ease;
+				-ms-transition: -ms-transform 0.5s ease;
+				transition: transform 0.5s ease;
+				position: relative;
+				display: block;
+				width: 100%;
+				border-radius: 4px;
+				overflow: hidden;
+			}
+
+				.articles article > .image img {
+					display: block;
+					width: 100%;
+				}
+
 /* Tiles */
 
 	.tiles {
@@ -2706,11 +2747,11 @@ input, select, textarea {
 			}
 
 			.tiles article.Complementos-Madera > .image:before {
-				background-color: #8499e7;
+				background-color: #800000;
 			}
 
 			.tiles article.Collares-Madera > .image:before {
-				background-color: #8499e7;
+				background-color: #c7ea46;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
