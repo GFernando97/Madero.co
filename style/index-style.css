@@ -2746,13 +2746,14 @@ input, select, textarea {
 				background-color: #8499e7;
 			}
 
+			.tiles article.Collares-Madera > .image:before {
+				background-color: #c7ea46;
+			}
 			.tiles article.Complementos-Madera > .image:before {
 				background-color: #800000;
 			}
 
-			.tiles article.Collares-Madera > .image:before {
-				background-color: #c7ea46;
-			}
+
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
